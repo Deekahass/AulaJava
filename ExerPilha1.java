@@ -44,8 +44,7 @@ public class ExerPilha1 {
 			  
 		  case 3:
 			  if(!Livros.isEmpty()) {
-			  System.out.println("Pilha: ");
-			  Livros.pop();
+			 System.out.println(Livros.pop());
 			  System.out.println("Um livro foi retirado da pilha");
 			} else {
 				System.out.println("A pilha está vázia!");
